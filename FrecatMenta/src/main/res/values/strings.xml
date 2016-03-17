@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Frecat Menta</string>
+    <string name="welcome_frecator_de_menta">Frecat Menta</string>
+    <string name="signed_in_toast">Bine ai venit draga frecator de menta %s!</string>
+    <string name="connection_suspended">Ne pare rau, conexiunea la serviciile google a fost suspendata. Cineva acolo sus nu vrea sa freci menta.</string>
+    <string name="connection_failed">Ne pare rau, nu se poate realiza conexiunea la serviciile google. Cineva acolo sus nu vrea sa freci menta.</string>
+    <string name="welcome_back_text">Bine ai revenit! Ne era teama ca te-ai lasat de frecat menta &#8230;</string>
+    <string name="topul_frecatorilor_de_menta">Topul Frecatorilor de Menta</string>
+    <string name="funny_working_hours_msg">Pentru ca freci menta in timpul serviciului, primesti cu 50%% mai multe puncte !</string>
+    <string name="funny_first_place_title">Felicitari!</string>
+    <string name="funny_first_place_msg">Nu avem cuvinte sa ne manifestam aprecierea. \nEsti pe locul 1! \nLauda-te prietenilor!</string>
+    <string name="funny_first_place_share_msg">
+        Locul 1 in topul frecatorilor de menta!\n
+        (https://play.google.com/store/apps/details?id=ro.sft.frecat_menta)
+    </string>
+    <string name="funny_second_place_title">Felicitari!</string>
+    <string name="funny_second_place_msg">Esti pe mult ravnitul loc 2 in topul frecatorilor de menta!\n Te poti mandri cu asta</string>
+    <string name="funny_second_place_share_msg">A fost greu pana am reusit,
+        insa sunt al 2-lea cel mai mare frecator de menta!
+        \n
+        (https://play.google.com/store/apps/details?id=ro.sft.frecat_menta)
+    </string>
+    <string name="funny_third_place_title">Bravo!</string>
+    <string name="funny_third_place_msg">Probabil e minunat sa fii pe locul 3 in topul frecatorilor de menta!\n Tine-o tot asa si nu uita sa te lauzi prietenilor.</string>
+    <string name="funny_third_place_share_msg">E minunat sa fii al pe locul 3 in topul frecatorilor de menta!
+        \n(https://play.google.com/store/apps/details?id=ro.sft.frecat_menta)
+    </string>
+    <string name="funny_x_place_title">Bravo!</string>
+    <string name="funny_x_place_msg">Probabil e minunat sa fii pe locul %s insa poti mai mult! \nTine-o tot asa si nu uita sa te lauzi prietenilor.</string>
+    <string name="funny_x_place_share_msg">E minunat sa fii al pe locul %s in topul frecatorilor de menta!
+        \n(https://play.google.com/store/apps/details?id=ro.sft.frecat_menta)
+    </string>
+    <string name="funny_encourage_msg">Esti pe locul %s in topul frecatorilor de menta.\n
+        Stim ca poti mai mult. Daca am putea freca menta pentru tine am face-o.</string>
+    <string name="share">Share</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="funny_share_title">Frecator de menta cu experienta!</string>
+    <string name="error_fetch_result">Eroare la interogarea clasamentului</string>
+    <string name="error">Eroare</string>
+    <string name="play_service_update_required">Versiunea google play services a terminalului nu este suportata</string>
+    <string name="sign_in_failed">Failed to sign in. Please check your network connection and try again.</string>
+    <string name="app_misconfigured">The application is incorrectly configured. Check that the package
+        name and signing certificate match the client ID created in Developer Console. Also, if the
+        application is not yet published, check that the account you are trying to sign in with is
+        listed as a tester account. See logs for more information.</string>
+    <string name="license_failed">License check failed.</string>
+    <string name="unknown_error">Unknown error.</string>
+    <string name="wait_for_play_connection">In curs de conectare la play services, reincearca in cateva momente</string>
+</resources>

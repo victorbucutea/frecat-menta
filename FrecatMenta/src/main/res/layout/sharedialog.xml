@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+    <ImageView
+            android:id="@+id/share_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="100dp"
+            android:maxWidth="100dp"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/leaderboard_icon"
+            />
+
+    <TextView
+            android:id="@+id/share_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/default_text_color"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@+id/share_img"/>
+
+
+    <Button
+            android:id="@+id/dialogButtonShare"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/share"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_below="@+id/share_text"
+            />
+
+    <Button
+            android:id="@+id/dialogButtonCancel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@+id/dialogButtonShare"
+            android:layout_below="@+id/share_text"
+            />
+
+</RelativeLayout>

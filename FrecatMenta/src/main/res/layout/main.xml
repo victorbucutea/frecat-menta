@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/menta_vertical"
+              android:id="@+id/mainView">
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/scoreText"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/default_text_color"
+            android:textSize="70sp"/>
+    <ProgressBar
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="69dp"
+            android:layout_height="10dp"
+            android:id="@+id/progressBar"
+            android:layout_gravity="center_horizontal"/>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="1" android:orientation="vertical" android:gravity="bottom|right">
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#fff"
+                android:drawableStart="@drawable/android_share_small"
+                android:drawableLeft="@drawable/android_share_small"
+                android:id="@+id/button_share" android:singleLine="false" android:background="#ffffffff"/>
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/topul_frecatorilor_de_menta"
+                android:id="@+id/button"
+                android:drawableStart="@drawable/leaderboard_icon_small"
+                android:drawableLeft="@drawable/leaderboard_icon_small"
+                android:drawableRight="@drawable/leaderboard_icon_small"
+                android:drawableEnd="@drawable/leaderboard_icon_small"
+                android:textSize="18sp" android:layout_gravity="bottom|center"/>
+
+    </LinearLayout>
+</LinearLayout>
+

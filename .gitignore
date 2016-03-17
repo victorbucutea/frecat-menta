@@ -1,2 +1,5 @@
 .idea/
-android/.idea/
+FrecatMenta/.idea/
+FrecatMenta/build/
+FrecatMenta/.gradle/
+FrecatMenta/FrecatMenta.iml
