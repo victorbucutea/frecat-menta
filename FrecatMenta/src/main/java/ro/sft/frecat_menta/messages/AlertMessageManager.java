@@ -198,7 +198,7 @@ public class AlertMessageManager {
 
         // set the custom dialog components - text, image and button
         TextView text = (TextView) dialog.findViewById(R.id.share_text);
-        text.setText(msg);
+        text.setText(frecatMenta.getString(msg, rank));
         final ImageView image = (ImageView) dialog.findViewById(R.id.share_img);
         image.setImageResource(resId);
 
